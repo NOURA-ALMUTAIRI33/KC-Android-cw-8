@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#F8E4A9">
+
+    <ImageView
+        android:id="@+id/i1"
+        android:layout_width="262dp"
+        android:layout_height="282dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="78dp"
+        android:layout_marginEnd="71dp"
+        android:layout_marginBottom="371dp"
+        app:srcCompat="@drawable/cheese" />
+
+    <TextView
+        android:id="@+id/Tv1"
+        android:layout_width="217dp"
+        android:layout_height="79dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="76dp"
+        android:layout_marginBottom="217dp"
+        android:text="cheese"
+        android:textColor="@color/black"
+        android:textSize="34sp" />
+</RelativeLayout>
